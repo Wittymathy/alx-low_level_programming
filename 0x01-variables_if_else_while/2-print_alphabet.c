@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	char lowcase = 'a';
+	char low = 'a';
 
-	while (lowcase <= 'z')
+	while (low <= 'z')
 	{
-		putchar(lowcase);
-		c++;
+		putchar(low);
+		low++;
 	}
 
 	putchar('\n');
