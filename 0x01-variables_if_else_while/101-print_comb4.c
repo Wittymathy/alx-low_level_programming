@@ -15,12 +15,12 @@ int main(void)
 		{
 			for (z = 0; z < 10; z++)
 			{
-				if (y > x && z > y)
+				if (x < y && y < z)
 				{
 					putchar(x);
 					putchar(y);
 					putchar(z);
-					if (x != 7 || y != 8 || z != 9)
+					if (x + y + j != 24)
 					{
 						putchar(',');
 						putchar(' ');
