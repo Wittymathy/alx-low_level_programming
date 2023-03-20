@@ -9,18 +9,18 @@ int main(void)
 {
 	int x, y, z;
 
-	for (x = 0; x < 10; x++)
+	for (x = 0; x < ':'; x++)
 	{
-		for (y = 0; y < 10; y++)
+		for (y = 1; y < ':'; y++)
 		{
-			for (z = 0; z < 10; z++)
+			for (z = 2; z < ':'; z++)
 			{
-				if (x < y && y < z)
+				if (y > x && z > y)
 				{
 					putchar(x);
 					putchar(y);
 					putchar(z);
-					if (x + y + j != 24)
+					if (x != 7 || y != 8 || z != 9)
 					{
 						putchar(',');
 						putchar(' ');
