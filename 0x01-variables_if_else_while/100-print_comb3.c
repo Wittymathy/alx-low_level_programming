@@ -7,20 +7,20 @@
 
 int main(void)
 {
-	int a, b;
+	int x, y;
 
-	for (a = 0; a < 10; a++)
+	for (x = 48; x < 58; x++)
 	{
-		for (b = 1; b < 10; b++)
+		for (y = 49; y < 58; y++)
 		{
-			if (b > a)
+			if (y > x)
 			{
-				putchar(a);
-				putchar(b);
-				if (a > 8 || b > 9)
+				putchar(x);
+				putchar(y);
+				if (x < 56 || y < 57)
 				{
-					putchar(16);
-					putchar(15);
+					putchar(44);
+					putchar(32);
 				}
 			}
 		}
