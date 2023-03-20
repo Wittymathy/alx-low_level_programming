@@ -9,11 +9,11 @@ int main(void)
 {
 	int x, y, z;
 
-	for (x = 0; x < ':'; x++)
+	for (x = 0; x < 10; x++)
 	{
-		for (y = 1; y < ':'; y++)
+		for (y = 1; y < 10; y++)
 		{
-			for (z = 2; z < ':'; z++)
+			for (z = 2; z < 10; z++)
 			{
 				if (y > x && z > y)
 				{
