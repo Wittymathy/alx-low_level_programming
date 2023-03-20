@@ -9,18 +9,18 @@ int main(void)
 {
 	int x, y, z;
 
-	for (x = 0; x < 10; x++)
+	for (x = 48; x < 58; x++)
 	{
-		for (y = 1; y < 10; y++)
+		for (y = 49; y < 58; y++)
 		{
-			for (z = 2; z < 10; z++)
+			for (z = 50; z < 58; z++)
 			{
 				if (y > x && z > y)
 				{
 					putchar(x);
 					putchar(y);
 					putchar(z);
-					if (x != 7 || y != 8 || z != 9)
+					if (x != 55 || y != 56 || z != 57)
 					{
 						putchar(',');
 						putchar(' ');
