@@ -8,7 +8,9 @@
 
 int main(void)
 {
-	_putchar('_putchar');
+	char var[] = "_putchar";
+
+	_putchar(var);
 	_putchar('\n);
 	return (0);
 }
