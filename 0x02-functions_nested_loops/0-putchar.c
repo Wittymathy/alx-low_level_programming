@@ -8,9 +8,16 @@
 
 int main(void)
 {
-	char var[] = "_putchar";
+	int n;
 
-	_putchar(var);
+	n = _putchar;
+
+	while (n != '\0')
+
+	{
+		_putchar(n);
+	}
 	_putchar('\n);
+
 	return (0);
 }
