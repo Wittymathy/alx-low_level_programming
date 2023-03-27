@@ -15,5 +15,5 @@ void print_array(int *a, int n)
 		printf("%d, ", a[y]);
 		else
 			printf("%d", a[y]);
-			printf("\n");
+printf("\n");
 }
