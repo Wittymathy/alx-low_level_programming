@@ -3,13 +3,12 @@
 
 /**
  * print_chessboard - Prints the chessboard
- * @a: Array
- * Return: No return
+ * @a: array
  */
 
 void print_chessboard(char (*a)[8])
 {
-	int b, c;
+	char b, c;
 
 	for (b = 0; b < 8; b++)
 	{
