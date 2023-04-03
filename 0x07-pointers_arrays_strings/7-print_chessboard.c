@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,7 +7,7 @@
 
 void print_chessboard(char (*a)[8])
 {
-	char b, c;
+	int b, c;
 
 	for (b = 0; b < 8; b++)
 	{
