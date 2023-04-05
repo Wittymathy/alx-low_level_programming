@@ -31,8 +31,5 @@ int _val(int n, int a)
 	{
 		return (a);
 	}
-	else
-	{
-		return (_val(n, a + 1));
-	}
+	return (_val(n, a + 1));
 }
