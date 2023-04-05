@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
+int _val(int n, int a);
+
 /**
  * _sqrt_recursion - Returns the natural square root of a number.
  * @n: Number
@@ -29,5 +31,5 @@ int _val(int n, int a)
 		return (-1);
 	if (val == n)
 		return (a);
-	return (_val(n, a + 1));
+a	return (_val(n, a + 1));
 }
