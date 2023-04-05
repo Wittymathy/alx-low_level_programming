@@ -9,6 +9,8 @@
 
 int _sqrt_recursion(int n)
 {
+	if (n == 0)
+		return (0);
 	return (_val(n, 1));
 }
 
@@ -24,12 +26,8 @@ int _val(int n, int a)
 	int val = a * a;
 
 	if (val > n)
-	{
 		return (-1);
-	}
-	else if (val == n)
-	{
+	if (val == n)
 		return (a);
-	}
 	return (_val(n, a + 1));
 }
