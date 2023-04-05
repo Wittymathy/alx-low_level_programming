@@ -27,12 +27,12 @@ int _val(int n, int a)
 	{
 		return (-1);
 	}
-	else if (val < n)
+	else if (val == n)
 	{
-		return (_val(n, a + 1));
+		return (a);
 	}
 	else
 	{
-		return (a);
+		return (_val(n, a + 1));
 	}
 }
