@@ -19,7 +19,7 @@ int main(void)
 	{
 		printf(", %lu", c);
 		c = c + b;
-		b + c - b;
+		b = c - b;
 	}
 
 	fib1 = b / 1000000000;
@@ -27,7 +27,7 @@ int main(void)
 	fib3 = c / 1000000000;
 	fib4 = c % 1000000000;
 
-	for (a = 92; a < 99; ++a)
+	for (a = 92; a < 99; a++)
 	{
 		printf(", %lu", fib3 + (fib4 / 1000000000));
 		printf("%lu", fib4 % 1000000000);
