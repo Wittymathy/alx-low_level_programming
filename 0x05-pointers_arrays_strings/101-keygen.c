@@ -9,16 +9,18 @@
 
 int main(void)
 {
-	int a, b, sum;
+	int a;
+	int b;
+	int sum;
 
-	srand(time(NULL));
+	srand(time(0));
 	for (b = 0, sum = 2772; sum > 122; b++)
 	{
 		a = (rand() % 125) + 1;
-		printf("%c", a);
+		printf("%s", a);
 		sum -= a;
 	}
-	printf("%c", sum);
+	printf("%s", sum);
 
 	return (0);
 }
