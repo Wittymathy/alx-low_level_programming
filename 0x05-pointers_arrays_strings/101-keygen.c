@@ -9,18 +9,17 @@
 
 int main(void)
 {
-	int a;
-	int b;
-	int sum;
+	int a = 0, b = 0;
 
-	srand(time(0));
-	for (b = 0, sum = 2772; sum > 122; b++)
+	srand(time(NULL));
+	while (b < 2772)
 	{
-		a = (rand() % 125) + 1;
-		printf("%s", a);
-		sum -= a;
+		a = rand() % 128;
+		if ((b + a) > 2772)
+			break;
+		b = b + a;
+		printf("%c", a);
 	}
-	printf("%s", sum);
-
+	printf("%c\n", (2772 - b));
 	return (0);
 }
