@@ -15,7 +15,7 @@ char *str_concat(char *s1, char *s2)
 	unsigned int a, b, c, d;
 
 	if (s1 == NULL)
-		s2 = "";
+		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
@@ -29,7 +29,6 @@ char *str_concat(char *s1, char *s2)
 
 	if (concat == NULL)
 	{
-		free(concat);
 		return (NULL);
 	}
 
@@ -37,6 +36,7 @@ char *str_concat(char *s1, char *s2)
 		concat[c] = s1[c];
 
 	d = b;
+
 	for (b = 0; b <= d; c++, b++)
 		concat[c] = s2[b];
 
