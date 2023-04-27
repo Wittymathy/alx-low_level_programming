@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * mathy - function executed before main
+ * martha - function executed before main
  * Return: no return.
  */
 
-void __attribute__ ((constructor)) mathy()
+void __attribute__ ((constructor)) martha()
 {
 	printf("You're beat! and yet, you must allow");
 	printf(",/nI bore my house upon my back!\n");
