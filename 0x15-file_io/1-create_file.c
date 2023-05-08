@@ -34,4 +34,4 @@ int create_file(const char *filename, char *text_content)
 
 	close(i);
 	return (1);
-}	
+}
